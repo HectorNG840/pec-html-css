@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Receta e historia del salmorejo cordobés tradicional paso a paso." />
+    <title>Salmorejo Cordobés | Sabores del Sur</title>
+    <link rel="stylesheet" href="../scss/main.scss" />
+  </head>
+  <body>
+    <include src="components/header.html"></include>
+
+    <main id="contenido-principal" class="contenedor contenido-pagina">
+      <article class="articulo-detalle">
+        <header class="cabecera-articulo">
+          <h1>Salmorejo Cordobés: La joya fría de la campiña</h1>
+          <p class="datos-meta">Categoría: Sopas y cremas frías | Origen: Córdoba</p>
+        </header>
+
+        <figure class="foto-destacada">
+          <img
+            src="../img/salmorejo-principal.jpg"
+            alt="Presentación principal de salmorejo cordobés servido en bol cerámico tradicional"
+            width="900"
+            height="500"
+          />
+          <figcaption>Salmorejo elaborado según el canon tradicional cordobés.</figcaption>
+        </figure>
+
+        <div class="cuerpo-articulo">
+          <p>
+            El salmorejo cordobés es una crema fría elaborada mediante la trituración de tomates maduros, pan bregado o
+            de telera, aceite de oliva virgen extra, ajo y sal. A diferencia del gazpacho andaluz, no incorpora vinagre
+            ni hortalizas como el pepino o el pimiento, lo que le confiere una densidad y una untuosidad mucho más
+            marcadas, similar a una emulsión o mahonesa vegetal.
+          </p>
+          <p>
+            Sus orígenes se remontan a las preparaciones de majado de pan con aceite y ajo que los campesinos elaboraban
+            en el dornillo durante las faenas del campo. La incorporación del tomate tras los intercambios con América
+            transformó definitivamente este plato humilde, dotándolo de su característico color rojizo anaranjado y su
+            equilibrio entre acidez y dulzor natural.
+          </p>
+          <p>
+            Para lograr la textura canónica es fundamental el empleo de pan con poca hidratación y miga compacta, así
+            como una emulsión prolongada al añadir el aceite de oliva a hilo. Se sirve habitualmente con una guarnición
+            de jamón curado cortado en pequeños dados y huevo duro picado, que aportan contraste salino y textura al
+            conjunto.
+          </p>
+        </div>
+
+        <section class="galeria-pasos" aria-label="Ingredientes y proceso del salmorejo">
+          <h2>Ingredientes y fases clave</h2>
+          <div class="grid-galeria">
+            <figure>
+              <img
+                src="../img/salmorejo-ingredientes.jpg"
+                alt="Tomates pera maduros, dientes de ajo morado y pan de hogaza cortado"
+                width="350"
+                height="240"
+                loading="lazy"
+              />
+              <figcaption>1. Selección de tomates de pera y pan de miga densa.</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="../img/salmorejo-emulsion.jpg"
+                alt="Emulsión del puré de tomate y pan al añadir aceite de oliva virgen extra"
+                width="350"
+                height="240"
+                loading="lazy"
+              />
+              <figcaption>2. Emulsión progresiva con aceite virgen extra.</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="../img/salmorejo-guarnicion.jpg"
+                alt="Primer plano de huevo cocido picado y taquitos de jamón ibérico"
+                width="350"
+                height="240"
+                loading="lazy"
+              />
+              <figcaption>3. Guarnición de jamón serrano y huevo cocido.</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="seccion-video">
+          <h2>Demostración tradicional en vídeo</h2>
+          <div class="contenedor-video">
+            <iframe 
+              src="https://www.youtube.com/embed/k5HBJd70rpc?si=abNXNv1YR9lJh8oy" 
+              title="Vídeo de elaboración de receta tradicional en cazuela" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <include src="components/footer.html"></include>
+    <script type="module" src="../js/app.js"></script>
+  </body>
+</html>

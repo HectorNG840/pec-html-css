@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Listado de recetas tradicionales andaluzas.">
+  <title>Recetario Tradicional</title>
+  <link rel="stylesheet" href="../scss/main.scss">
+</head>
+<body>
+  <include src="components/header.html"></include>
+
+  <main id="contenido-principal" class="contenedor contenido-pagina">
+    <header class="cabecera-seccion">
+      <h1>Recetario Tradicional</h1>
+      <p>Selección de platos representativos de las ocho provincias andaluzas elaborados con ingredientes de proximidad.</p>
+    </header>
+
+    <section class="lista-recetas" aria-label="Lista de platos tradicionales">
+      <article class="ficha-receta">
+        <img src="../img/salmorejo-portada.jpg" alt="Plato de salmorejo frío con taquitos de jamón ibérico" width="220" height="150" loading="lazy">
+        <div class="datos-receta">
+          <h2><a href="/det1/">Salmorejo Cordobés</a></h2>
+          <p>Crema espesa y fresca representativa de la campiña de Córdoba, rica en licopeno y grasas saludables procedentes del aceite de oliva.</p>
+          <span class="etiqueta">Tiempo: 20 min</span>
+          <span class="etiqueta">Dificultad: Baja</span>
+        </div>
+      </article>
+
+      <article class="ficha-receta">
+        <img src="../img/carrillada-portada.jpg" alt="Carrillada de cerdo glaseada con salsa" width="220" height="150" loading="lazy">
+        <div class="datos-receta">
+          <h2><a href="/det2/">Carrillada Ibérica al Pedro Ximénez</a></h2>
+          <p>Guiso tradicional de invierno donde la carne queda melosa gracias al colágeno cocinado a fuego constante con vino dulce generoso.</p>
+          <span class="etiqueta">Tiempo: 90 min</span>
+          <span class="etiqueta">Dificultad: Media</span>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <include src="components/footer.html"></include>
+  <script type="module" src="../js/app.js"></script>
+</body>
+</html>
